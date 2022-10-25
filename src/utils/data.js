@@ -37,8 +37,8 @@ export const heroData = [
 export const categories = [
     {
         id: 1,
-        name: "Chicken",
-        urlParamName: "chicken",
+        name: "BubbleTee",
+        urlParamName: "bubbletee",
     },
     {
         id: 2,
