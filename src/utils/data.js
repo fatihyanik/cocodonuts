@@ -6,15 +6,15 @@ import Fi1 from "../img/fi1.png";
 export const heroData = [
     {
         id: 1,
-        name: "Icecream",
-        decp: "Chocolate & vanilla",
-        price: "5.25",
+        name: "Lychee Tea",
+        decp: "Lychee",
+        price: "4.30",
         imageSrc: I1,
     },
     {
         id: 2,
-        name: "Strawberries",
-        decp: "Fresh Strawberries",
+        name: "Apple Tea",
+        decp: "Kiwi & Apple",
         price: "10.25",
         imageSrc: F1,
     },
@@ -37,38 +37,18 @@ export const heroData = [
 export const categories = [
     {
         id: 1,
-        name: "BubbleTee",
-        urlParamName: "bubbletee",
+        name: "Donut Box",
+        urlParamName: "donut box",
     },
     {
         id: 2,
-        name: "Curry",
-        urlParamName: "curry",
+        name: "Cheesecake",
+        urlParamName: "cheesecake",
     },
     {
         id: 3,
-        name: "Rice",
-        urlParamName: "rice",
-    },
-    {
-        id: 4,
-        name: "Fish",
-        urlParamName: "fish",
-    },
-    {
-        id: 5,
-        name: "Fruits",
-        urlParamName: "fruits",
-    },
-    {
-        id: 6,
-        name: "Icecreams",
-        urlParamName: "icecreams",
+        name: "Bubble Tea",
+        urlParamName: "bubble tea",
     },
 
-    {
-        id: 7,
-        name: "Soft Drinks",
-        urlParamName: "drinks",
-    },
 ];

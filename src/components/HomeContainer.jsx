@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import Delivery from "../img/delivery.png";
 import HeroBg from "../img/heroBg.png";
@@ -24,9 +26,9 @@ const HomeContainer = () => {
         </div>
 
         <p className='text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor'>
-          The Fastest Delivery in
-          <span className='text-orange-600 text-[3rem] lg:text-[5rem]'>
-            Your City
+          Make Happy <br/>
+          <span className='text-pink-400 text-[3rem] lg:text-[5rem]'>
+          Be Happy
           </span>
         </p>
 
@@ -39,9 +41,9 @@ const HomeContainer = () => {
 
         <button
           type='button'
-          className='bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100'
+          className='bg-gradient-to-br from-pink-400 to-pink-500 w-full md:w-auto px-4 py-2  rounded-lg hover:shadow-lg transition-all ease-in-out duration-100'
         >
-          Order Now
+          <a href="https://www.lieferando.de/en/menu/coco-donuts" target="_blank">Order Now</a>
         </button>
       </div>
       <div className='py-2 flex-1 flex items-center relative'>
