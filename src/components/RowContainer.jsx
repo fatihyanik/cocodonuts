@@ -64,7 +64,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
             </div>
 
             <div className='w-full flex flex-col items-end justify-end -mt-8'>
-              <p className='text-textColor font-semibold text-base md:text-lg'>
+              <p className='text-textColor font-semibold text-sm md:text-sm'>
                 {item?.title}
               </p>
               <p className='mt-1 text-sm text-gray-500'>
